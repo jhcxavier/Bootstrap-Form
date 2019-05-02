@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <title>Page Title</title>
+        </head>
+            <body>
+                <div class="container">
+                    <div class="card rounded-0">
+                        <div class="card-header">
+                                Payment for Exemple
+                        </div>
+
+                            <form>
+                                <div class="mx-3">
+                                    <div class="alert alert-danger my-3" role="alert">
+                                        Some fields are missing
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-4 mb-3">
+                                        <label for="validationDefault03">Card #</label>
+                                        <input type="text" class="form-control" id="validationDefault03" placeholder="XXXXXXXXXXXX" required>
+                                    </div>
+                                    <div class="col-3 mb-3">
+                                        <label for="validationDefault04">CVC #</label>
+                                        <input type="text" class="form-control" id="validationDefault04" placeholder="0000" required>
+                                    </div>
+                                    <div class="col-1 mb-3 pr-0">
+                                        <label for="validationDefault05"> </label>
+                                        <input type="text" class="form-control text-right dark pr-0 border-0" id="validationDefault05" placeholder="$" required>
+                                    </div>
+                                    <div class="col-3 mb-3 pl-0">
+                                        <label for="validationDefault05">Amount</label>
+                                        <input type="text" class="form-control" id="validationDefault05" placeholder="Amount" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-6 mb-3">
+                                        <label for="validationDefault01">First name</label>
+                                        <input type="text" class="form-control" id="validationDefault01" required>
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <label for="validationDefault02">Last name</label>
+                                        <input type="text" class="form-control" id="validationDefault02" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="col-6 mb-3">
+                                        <label for="validationDefault03">City</label>
+                                        <input type="text" class="form-control" id="validationDefault03" required>
+                                    </div>
+                                    <div class="col-3 mb-3">
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">State</label>
+                                             <select class="form-control" id="exampleFormControlSelect1">
+                                                <option>Pick a State</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 mb-3">
+                                        <label for="validationDefault05">Postal</label>
+                                        <input type="text" class="form-control" id="validationDefault05" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-6">
+                                        <label for="exampleFormControlTextarea1">We Accept:</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="exampleFormControlTextarea1">Message</label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-5">
+                                        <div class="text-center form-group bg-secondary rounded col-7 p-2 pl-6 px-0">
+
+                                            <div class="form-check form-check-inline back">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-mastercard"></i></label>
+                                            </div>
+                                            <div class="form-check form-check-inline back">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-visa"></i></label>
+                                            </div><div class="form-check form-check-inline back">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                <label class="form-check-label" for="inlineRadio1"><i class="fab fa-angellist"></i></label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-amex"></i></label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-1 mb-3 pr-0">
+                                        <label for="validationDefault05"> </label>
+                                        <input type="text" class="form-control text-right dark pr-0 border-0" id="validationDefault05" required>
+                                    </div>
+                                    <div class="col-6" style="height: 82px;">
+                                        <div class="form-group">
+
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-6">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="text-secondary small" for="exampleFormControlTextarea1" style="margin-bottom: 35px;">Add any notes here.</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted border text-right">
+                            <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
+                            <button type="button" class="btn btn-primary btn-sm">Send</button>
+                    </div>
+                </div>
+
+</body>
+</html>
